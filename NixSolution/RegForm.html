@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>RegistrationForm</title>
+    <link rel="stylesheet" href="RegForm.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="validation.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading ">
+                    Registration
+                </div>
+                <div class="panel-body">
+                    <form id="registration">
+                        <input type="text" class="form-control" name="login" placeholder="Login" />
+                        <input type="email" class="form-control" name="email" placeholder="Email" />
+                        <input type="password" class="form-control" name="password" placeholder="Password" id="password" />
+                        <input type="password" class="form-control" name="confirm" placeholder="Confirm password" />
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #9f88bd">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <span>© 2021 Company, Inc</span>
+            </div>
+            <ul class="nav col-md-4 align-items-center">
+                <li id="home"><a href="index.html">Home</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

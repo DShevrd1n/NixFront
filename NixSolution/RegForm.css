@@ -1,0 +1,33 @@
+﻿body {
+}
+.error{
+    color:red;
+    font-style:italic;
+}
+.panel.panel-primary {
+    border-color: #9f88bd !important;
+}
+.panel-heading {
+    background-color: #9f88bd !important;
+    border-color: #9f88bd !important;
+}
+.btn.btn-primary {
+    background-color: #9f88bd !important;
+    border-color: #9f88bd !important;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+li.ms {
+    width: 100px !important;
+    
+}
+#home {
+    width: 100px !important;
+}
+a {
+    color: black !important;
+    font-weight: 500;
+    text-transform: uppercase;
+}

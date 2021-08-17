@@ -1,0 +1,18 @@
+﻿body {
+}
+
+a {
+    color: black !important;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#home {
+    width: 100px !important;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+
